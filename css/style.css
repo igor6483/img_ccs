@@ -7,7 +7,7 @@ header{
 
     background-color:rgb(122, 122, 252);
     display: flex;
-    gap:750px;
+    gap:1350px;
  #other{
     display: flex;
     align-items: center;
@@ -15,25 +15,44 @@ header{
  }
 }
 main{
-    background-color: aliceblue;
+    background-color: rgb(119, 246, 255);
     padding: 30px;
+    height: 2000px;
     #intro {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(129, 214, 207);
         border-radius: 20px;
         width: 100%;
-        height:180px;
+        height:200px;
         align-items: center;
         display: flex;
-        gap:130px;
+        gap:400px;
+        padding-left:10px
     }
     #intro img{
      width: 20%;
-     height: 160px;
+     height: 90%;
      border-radius:30px;
     }
 #gal-cards{
     padding: 30px;
-    background-color: bisque;
-    border-radius: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+ .cards {
+    background-color: rgb(67, 161, 161);
+    border-radius: 30px;
+    width: 30%;
+    height: 400px;
+    padding-left:30px
+    
+ }
+ .cards img{
+    width: 90%;
+    height: 80%;
+    border-radius: 30px;
+ }
+}
+footer{
+    background-color: rgb(151, 186, 250);
 }
