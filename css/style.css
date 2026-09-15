@@ -7,7 +7,7 @@ header{
 
     background-color:rgb(122, 122, 252);
     display: flex;
-    gap:1350px;
+    gap:750px;
  #other{
     display: flex;
     align-items: center;
@@ -34,23 +34,29 @@ main{
      border-radius:30px;
     }
 #gal-cards{
+
     padding: 30px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
  .cards {
     background-color: rgb(67, 161, 161);
     border-radius: 30px;
     width: 30%;
     height: 400px;
-    padding-left:30px
-    
+    padding-left:30px;
+    margin:10px;
+    padding-top: 10px;
+
+
  }
  .cards img{
     width: 90%;
     height: 80%;
     border-radius: 30px;
+
  }
 }
 footer{
